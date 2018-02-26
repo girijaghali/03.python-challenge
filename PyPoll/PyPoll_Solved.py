@@ -1,7 +1,7 @@
-paragraphimport os
+import os
 import csv
 
-filename = "election_data_2"
+filename = "election_data_1"
 
 poll_input_csv = os.path.join( "Resources", filename+".csv")
 poll_output_csv = os.path.join( "Resources", filename+"_out.txt")
